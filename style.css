@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: grey;
+}
+
+/*widht input fields*/
+
+input[type="text"],
+input[type="password"] {
+  width: 30%;
+  padding: 10px;
+  margin: 10px 0px 10px 50px;
+  display: flex;
+  border: none;
+  background: #f1f1f1;
+}
+/*second layer input*/
+
+input[type="text"],
+input[type="password"] {
+  background: #dededd;
+  outline-style: none;
+  margin-left: 80px;
+}
+/*margin main text*/
+label,
+h1,
+p {
+  margin-left: 80px;
+}
+/*hr */
+hr {
+  border: 1px solid rgb(6, 146, 29);
+  margin-bottom: 15px;
+  width: 30%;
+  margin-left: 80px;
+}
+
+/* Adding padding margin sign up class*/
+
+.signup {
+  background-image: url("image.jpg");
+  background-size: cover;
+  padding: 10px 30px 20px 30px;
+  margin: 70px 50px 70px 80px;
+  color: beige;
+}
+
+
